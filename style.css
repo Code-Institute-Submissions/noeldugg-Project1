@@ -7,10 +7,13 @@
 * {
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 body {
     font-family: "Montserrat", sans-serif;
 }
 .header {
-    
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
 }
