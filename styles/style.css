@@ -20,12 +20,9 @@ button {
 }
 .header {
     display: flex;
-     /* justify-content: space-between; */
     align-items: center;
     padding: 1rem 0;
-    /* flex-direction: row; */
-    width: 90%;
-    margin-inline: auto;
+   
 }
 .header__title  {
     text-transform: uppercase;
@@ -58,4 +55,27 @@ button {
     border-radius: 4px;
    
 }
+.hero {
+    display: flex;
+    margin-top: 5rem;
+    padding: 0.5em 1rem;
+}
+.hero__title{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2rem;
 
+}
+.hero__description {
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: inherit;
+}
+.hero__img {
+    width: 400px;
+    height: 400px;
+}
+.container {
+    width: 90%;
+    margin-inline: auto;
+}
