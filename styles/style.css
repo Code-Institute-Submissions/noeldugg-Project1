@@ -11,7 +11,17 @@
 }
 body {
     font-family: "Montserrat", sans-serif;
+    background-color: ;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/Fondo\ de\ periódico\ rasgado\ _\ Foto\ Premium.jpeg");
+     height: 100vh;
+    background-size: 500px;
+    background-position: top center;
+
+
+   
+   
 }
+ 
 button {
     border: none;
     background: none;
@@ -22,19 +32,31 @@ button {
     display: flex;
     align-items: center;
     padding: 1rem 0;
+    
    
 }
 .header__title  {
     text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 2.5rem;
+    font-weight: 500;
     flex: 1;
 
 }
 .header__link {
     color: #000;
+    padding: 0.5em 1rem;
+    border-radius: 4px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
     text-decoration: none;
+    transition: transform  0.3s ease;
+
  
+}
+.header__link:hover {
+    transform: translateY(-5px);
+
 }
 .header__menu {
   display: flex;
@@ -48,33 +70,190 @@ button {
     flex: 1;
     justify-content: center;
 }
+@keyframes bounce{
+    0%,20%,50%,80% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translatey(0);
+    }
+   }
 .btn {
+    animation: bounce 1s infinite;
     color: #fff;
     background-color: #000;
     padding: 0.5em 1rem;
     border-radius: 4px;
+    text-transform: uppercase;
+    transition: transform  0.3s ease;
+
    
 }
-.hero {
-    display: flex;
-    margin-top: 5rem;
-    padding: 0.5em 1rem;
+.btn:hover {
+    transform: translateY(-5px);
+    
 }
-.hero__title{
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 2rem;
+.reviews {
+    display: flex;
+}
+@keyframes weeee {
+    0%,20%,50%,80% {
+        /* transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px); */
+    }
+    100%{
+        transform: translateX(101%);
+    }
+   }
+.custom {
+    position: absolute;
+    z-index: -1;
+    animation: weeee 5s  linear infinite alternative;
+     display: inline-block;
+}
+.hero {
+  
+    display: flex;
+    margin-top: 10rem;
+    padding: 0.5em 1rem;
+    letter-spacing: -0.025em;
+    flex-direction:column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    
 
 }
+/* @keyframes bounce{
+    0%,20%,50%,80% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translatey(0);
+    }
+   } */
+.hero__title{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3.5rem;
+    animation:  1s infinite ;
+
+   
+}
+.wrap {
+    margin: 3em 8em;
+    display: flex;
+}
+@keyframes bounce{
+    0%,20%,50%,80% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translatey(0);
+    }
+   }
 .hero__description {
-    font-size: 0.9rem;
-    font-weight: 400;
-    font-family: inherit;
+   
+    animation:  1s infinite ;
+    font-size: 1.1rem;
+    max-width: 60ch;
+    margin-left: 2.5em;
+    background-color: #fff;
+    color: #000000b9;
+    border-radius: 4px;
+    text-align: left ;
+    padding: 0.5em 1rem;
+    font-weight: 500;
+    transition: transform 0.5s ; 
 }
-.hero__img {
-    width: 400px;
-    height: 400px;
+.hero__description:hover {
+    transform: translateY(-10px);
+    font-size: 1.3rem;
 }
+
+   .image {
+    margin-top: 5rem;
+    align-items: center;
+    border: 5px solid black;
+   
+   }
+
+ 
+
+   
+.hero__img1 {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    max-width: 100%;
+    border-radius: 10px;
+    background-image: url("../images/image1.jpeg") ;
+    background-size: cover;
+    transition: transform 0.3s ;
+
+    
+ 
+    
+}
+.hero__img1:hover {
+    background-image: url("../images/image2.jpeg") ;
+    transform: translateY(-10px);
+
+}
+
+
+.hero__img2 {
+    width: 500px;
+    height: 500px;
+    display: block;
+    border-radius: 10px;
+    background-size: cover;
+    transition: transform 0.3s ;
+    background-image: url("../images/image2.jpeg") ;
+
+
+}
+.hero__img2:hover {
+    background-image: url("../images/image1.jpeg") ;
+    transform: translateY(-10px);
+}
+.hero__img3 {
+    width: 500px;
+    height: 500px;
+    display: block;
+    border-radius: 10px;
+    background-image: url("../images/image3.jpeg" );
+    transition: transform 0.3s ;
+    background-size: cover;
+}
+.hero__img3:hover {
+    background-image: url("../images/image2.jpeg") ;
+    transform: translateY(-10px);
+}
+
 .container {
     width: 90%;
     margin-inline: auto;
