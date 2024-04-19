@@ -12,7 +12,7 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-color: ;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/Fondo\ de\ periódico\ rasgado\ _\ Foto\ Premium.jpeg");
+    /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/Fondo\ de\ periódico\ rasgado\ _\ Foto\ Premium.jpeg"); */
      height: 100vh;
     background-size: 500px;
     background-position: top center;
@@ -151,7 +151,7 @@ button {
    } */
 .hero__title{
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: ;
     font-size: 3.5rem;
     animation:  1s infinite ;
 
@@ -266,14 +266,60 @@ button {
     font-size: 4rem;
 }
 .help__description {
-    font-size: 1rem;
-    border: #fff;
-    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+   
+    justify-content: center;
     background-color: #fff;
     color: #000;
-    font-weight: 500;
+    margin-bottom: 1rem;
+    /* font-weight: 500; */
 }
 
+.items {
+    display: flex;
+    height: 500px;
+    /* flex-direction: row; */
+    /* align-items: center; */
+  
+    gap: 1rem;
+
+
+
+}
+.item {
+    /* flex-wrap: wrap;
+    align-content: space-around; */
+     width: 100px;
+     height:200px;
+   padding: 0.5em 1rem;
+    color: #fff;
+    background-color: #000;
+    margin-top: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.item-1 {
+    
+    flex: 1;
+}
+.item-2 {
+    flex: 1;
+}
+.item-3 {
+    flex: 1;
+}
+.item-4 {
+    flex: 1;
+}
+.item-5 {
+    flex: 1;
+}
+.item-6 {
+    flex: 1;
+}
 
 
 
