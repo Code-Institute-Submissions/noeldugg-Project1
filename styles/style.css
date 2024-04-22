@@ -11,7 +11,7 @@
 }
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: ;
+    
     /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/Fondo\ de\ periódico\ rasgado\ _\ Foto\ Premium.jpeg"); */
      height: 100vh;
     background-size: 500px;
@@ -32,6 +32,7 @@ button {
     display: flex;
     align-items: center;
     padding: 1rem 0;
+    margin-top: 1rem;
     
    
 }
@@ -40,6 +41,7 @@ button {
     font-size: 2.5rem;
     font-weight: 500;
     flex: 1;
+    
 
 }
 .header__link {
@@ -70,7 +72,7 @@ button {
     flex: 1;
     justify-content: center;
 }
-@keyframes bounce{
+/* @keyframes bounce{
     0%,20%,50%,80% {
         transform: translateY(0);
     }
@@ -83,9 +85,9 @@ button {
     100%{
         transform: translatey(0);
     }
-   }
+   } */
 .btn {
-    animation: bounce 1s infinite;
+    /* animation: bounce 1s infinite; */
     color: #fff;
     background-color: #000;
     padding: 0.5em 1rem;
@@ -101,31 +103,26 @@ button {
 }
 .reviews {
     display: flex;
+   margin-bottom: 10rem;
+    
+    gap: 1rem;
 }
-@keyframes weeee {
-    0%,20%,50%,80% {
-        /* transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-30px);
-    }
-    60% {
-        transform: translateY(-15px); */
-    }
-    100%{
-        transform: translateX(101%);
-    }
-   }
+
 .custom {
-    position: absolute;
-    z-index: -1;
-    animation: weeee 5s  linear infinite alternative;
-     display: inline-block;
-}
+    font-style: italic;
+   font-family: cursive;
+     font-size: 0.8rem;
+     font-weight: 100; 
+     max-width: 60ch;
+   }
+
+
+
+
 .hero {
-  
+    margin-top: 8rem;
     display: flex;
-    margin-top: 10rem;
+    
     padding: 0.5em 1rem;
     letter-spacing: -0.025em;
     flex-direction:column;
@@ -151,7 +148,7 @@ button {
    } */
 .hero__title{
     text-transform: uppercase;
-    font-weight: ;
+
     font-size: 3.5rem;
     animation:  1s infinite ;
 
@@ -176,7 +173,7 @@ button {
     }
    }
 .hero__description {
-   
+   margin-top: 3rem;
     animation:  1s infinite ;
     font-size: 1.1rem;
     max-width: 60ch;
@@ -255,18 +252,22 @@ button {
 }
 
 .help {
+    margin-top: 10rem;
     display: grid;
     justify-content: center;
     text-align: center;
     padding: 0.5em 1rem;
     
 }
+.help__container {
+    display: flex;
+}
 
 .help__title {
     font-size: 4rem;
 }
 .help__description {
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-size: 1.2rem;
    
     justify-content: center;
@@ -277,11 +278,12 @@ button {
 }
 
 .items {
+    
     display: flex;
     height: 500px;
     /* flex-direction: row; */
     /* align-items: center; */
-  
+  justify-content: space-between;
     gap: 1rem;
 
 
@@ -290,17 +292,25 @@ button {
 .item {
     /* flex-wrap: wrap;
     align-content: space-around; */
-     width: 100px;
-     height:200px;
+     width: 200px;
+     height:150px;
    padding: 0.5em 1rem;
     color: #fff;
     background-color: #000;
     margin-top: 1rem;
-    border-radius: 4px;
-    font-size: 1rem;
+    border-radius: 10px 40px;
+    font-size: 1.1rem;
     margin-top: 1rem;
     font-weight: 700;
+    justify-content: space-between;
+    border: none;
+    transition: transform  0.3s ease;
+    position: ;
 }
+.item:hover {
+    transform: translateY(-15px);
+}
+
 .item-1 {
     
     flex: 1;
