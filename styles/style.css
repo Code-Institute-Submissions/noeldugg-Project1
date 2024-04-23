@@ -12,15 +12,11 @@
 body {
     font-family: "Montserrat", sans-serif;
     
-    /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/Fondo\ de\ periódico\ rasgado\ _\ Foto\ Premium.jpeg"); */
      height: 100vh;
-    background-size: 500px;
-    background-position: top center;
 
-
-   
    
 }
+
  
 button {
     border: none;
@@ -33,6 +29,7 @@ button {
     align-items: center;
     padding: 1rem 0;
     margin-top: 1rem;
+    margin-bottom: 5rem;
     
    
 }
@@ -41,6 +38,7 @@ button {
     font-size: 2.5rem;
     font-weight: 500;
     flex: 1;
+    justify-content: left;
     letter-spacing: -0.05em;
     
 
@@ -103,25 +101,14 @@ button {
     transform: translateY(-5px);
     
 }
-.reviews {
-    display: flex;
-   /* margin-bottom: 10rem; */
-    
-    gap: 1rem;
-}
 
-.custom {
-    font-style: italic;
-   font-family: cursive;
-     font-size: 0.8rem;
-     font-weight: 100; 
-     max-width: 60ch;
-   }
+
 
 
 
 
 .hero {
+   
     margin-top: 8rem;
     display: flex;
     
@@ -153,6 +140,7 @@ button {
     letter-spacing: -0.05em;
     font-size: 3.5rem;
     animation:  1s infinite ;
+    margin-top: 5rem;
 
    
 }
@@ -199,7 +187,7 @@ button {
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 10px;
-   
+   margin-bottom: 5rem;
    }
 
  
@@ -258,15 +246,19 @@ button {
 }
 
 .help {
+    border: 1px solid black;
     margin-top: 5rem;
     display: grid;
     justify-content: center;
     text-align: center;
     padding: 0.5em 1rem;
+    margin-bottom: 5rem;
     
 }
 .help__container {
     display: flex;
+    margin-bottom: 5rem;
+  
 }
 
 .help__title {
@@ -293,14 +285,17 @@ button {
     /* align-items: center; */
   justify-content: space-between;
     gap: 1rem;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 10rem;
 
 
 
 }
 .item {
-    /* flex-wrap: wrap;
-    align-content: space-around; */
-     width: 200px;
+    
+    
+     width: ;
      height:150px;
    padding: 0.5em 1rem;
     color: #fff;
@@ -312,6 +307,7 @@ button {
     justify-content: space-between;
     border: none;
     transition: transform  0.3s ease;
+   
     
 }
 .item:hover {
@@ -346,6 +342,7 @@ button {
     font-size: 2.2rem;
     letter-spacing: -0.05em;
     line-height: 1; 
+    margin-top: 5rem;
   
 }
 .footer__description {
@@ -381,7 +378,7 @@ button {
     border: 1px solid #ccc;
     background-color: #000;
     color: #fff;
-    width: 200px;
+    width: 100%;
     border-radius: 10px;
     
     
@@ -405,6 +402,48 @@ button {
 }
 
 .container {
-    width: 90%;
-    margin-inline: auto;
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 0 1rem
 }
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+  }

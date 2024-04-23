@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-  <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="Html/pricing.html" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="Html/services.html" />
     <title>Digital Agency</title>
   </head>
@@ -19,8 +23,8 @@
     <header class="header container">
       <h2 class="header__title">Digital Agency</h2>
       <div class="header__btn-container">
-        <button class="btn">Email</button>
-        <button class="btn">Contact</button>
+        <button class="btn btn-container">Email</button>
+        <button class="btn btn-container">Contact</button>
       </div>
       <nav class="header__menu">
         <a href="index.html" class="header__link">HOME </a>
@@ -29,24 +33,6 @@
       </nav>
     </header>
     <section class="hero container">
-      <div class="reviews">
-        <!-- <p class="custom custom-1">
-          "Incredible growth catalyst! With DIGITAL AGENCY strategic guidance,
-          our business soared to new heights. Their innovative ideas and
-          actionable insights transformed our approach and boosted revenue
-          significantly."
-        </p>
-        <p class="custom custom-2">
-          "Thanks to Digital Agency's expertise, we experienced rapid expansion.
-          Their tailored solutions propelled our growth trajectory, surpassing
-          all expectations."
-        </p>
-        <p class="custom custom-3">
-          "Digital Agency's data-driven strategies yielded remarkable results.
-          Their impact on our bottom line was unmatched, solidifying our
-          position in the market."
-        </p> -->
-      </div>
       <h1 class="hero__title">Our Digital Impact</h1>
       <p class="hero__description">
         At our digital agency, we've revolutionized businesses with bespoke
@@ -56,7 +42,7 @@
         results, cementing our role as invaluable allies in our clients'
         triumphs.
       </p>
-      <button href=".//Html/services.html" class="btn">Learn more</button>
+      <button href=".//Html/services.html" class="btn btn-container">Learn more</button>
       <div class="wrap">
         <img class="hero__img1 image" />
         <img class="hero__img2 image" />
@@ -79,40 +65,76 @@
     </section>
     <section class="footer container">
       <h2 class="footer__title">Everything you need to run your business</h2>
-      <p class="footer__description">These are key points that we will focus on your business</p>
+      <p class="footer__description">
+        These are key points that we will focus on your business
+      </p>
       <div class="footer__container">
-      <div class="footer__box">
-      <h3 class="footer__box-title">Market</h3>
-      <p class="footer__box-description"> Begin by conducting thorough market research to understand your industry landscape, target audience, and competitors. Analyze consumer behavior, market trends, and potential opportunities for growth.</p>
-    </div>
-    <div class="footer__box" >
-      <h3 class="footer__box-title">UVP</h3>
-      <p class="footer__box-description"> Clearly articulate what sets your business apart from competitors. Identify your unique strengths, whether it's product quality, excellent customer service, competitive pricing, or innovation.</p>
-    </div>
-    <div class="footer__box">
-      <h3 class="footer__box-title">Strategy</h3>
-      <p class="footer__box-description"> Craft a marketing plan that aligns with your business goals and target audience. Utilize a mix of digital marketing tactics such as SEO, social media marketing, email campaigns, content marketing, and paid advertising to reach and engage potential customers.</p>
-    </div>
-    <div class="footer__box">
-      <h3 class="footer__box-title">Online Presence</h3>
-      <p class="footer__box-description">Enhance your digital presence across all relevant platforms. Ensure your website is user-friendly, mobile-responsive, and optimized for search engines. Establish active profiles on social media platforms where your target audience is most active, and regularly share valuable content to build brand credibility and engage with your audience.</p>
-    </div>
-    <div class="footer__box">
-      <h3 class="footer__box-title">Customer Relationship</h3>
-      <p class="footer__box-description">Focus on building and nurturing relationships with your customers. Implement a CRM system to track customer interactions, manage leads, and personalize communication. Provide exceptional customer service to foster loyalty and encourage repeat business.</p>
-    </div>
-    <div class="footer__box">
-      <h3 class="footer__box-title">Monitor & Measure</h3>
-      <p class="footer__box-description">Continuously monitor the performance of your marketing efforts and business growth metrics. Analyze key performance indicators (KPIs) to gauge the effectiveness of your strategies and make data-driven decisions. Adapt your approach based on insights gained, evolving market trends, and customer feedback to sustain long-term growth.</p>
-    </div>
-    </div>
+        <div class="footer__box">
+          <h3 class="footer__box-title">Market</h3>
+          <p class="footer__box-description">
+            Begin by conducting thorough market research to understand your
+            industry landscape, target audience, and competitors. Analyze
+            consumer behavior, market trends, and potential opportunities for
+            growth.
+          </p>
+        </div>
+        <div class="footer__box">
+          <h3 class="footer__box-title">UVP</h3>
+          <p class="footer__box-description">
+            Clearly articulate what sets your business apart from competitors.
+            Identify your unique strengths, whether it's product quality,
+            excellent customer service, competitive pricing, or innovation.
+          </p>
+        </div>
+        <div class="footer__box">
+          <h3 class="footer__box-title">Strategy</h3>
+          <p class="footer__box-description">
+            Craft a marketing plan that aligns with your business goals and
+            target audience. Utilize a mix of digital marketing tactics such as
+            SEO, social media marketing, email campaigns, content marketing, and
+            paid advertising to reach and engage potential customers.
+          </p>
+        </div>
+        <div class="footer__box">
+          <h3 class="footer__box-title">Online Presence</h3>
+          <p class="footer__box-description">
+            Enhance your digital presence across all relevant platforms. Ensure
+            your website is user-friendly, mobile-responsive, and optimized for
+            search engines. Establish active profiles on social media platforms
+            where your target audience is most active, and regularly share
+            valuable content to build brand credibility and engage with your
+            audience.
+          </p>
+        </div>
+        <div class="footer__box">
+          <h3 class="footer__box-title">Customer Relationship</h3>
+          <p class="footer__box-description">
+            Focus on building and nurturing relationships with your customers.
+            Implement a CRM system to track customer interactions, manage leads,
+            and personalize communication. Provide exceptional customer service
+            to foster loyalty and encourage repeat business.
+          </p>
+        </div>
+        <div class="footer__box">
+          <h3 class="footer__box-title">Monitor & Measure</h3>
+          <p class="footer__box-description">
+            Continuously monitor the performance of your marketing efforts and
+            business growth metrics. Analyze key performance indicators (KPIs)
+            to gauge the effectiveness of your strategies and make data-driven
+            decisions. Adapt your approach based on insights gained, evolving
+            market trends, and customer feedback to sustain long-term growth.
+          </p>
+        </div>
+      </div>
     </section>
     <section class="contact container">
       <h2 class="contact__title">Get in Touch</h2>
-      <p class="contact__description">Feel free to get in touch </p>
-      <a class="btn btn1" target="_blank" href="mailto:sibealduggan@gmail.com">Reach out</a>
+      <p class="contact__description">Feel free to get in touch</p>
+      <a class="btn btn1" target="_blank" href="mailto:sibealduggan@gmail.com"
+        >Reach out</a
+      >
     </section>
-    
+
     <!-- <div style="height: 100vh"></div> -->
   </body>
 </html>
