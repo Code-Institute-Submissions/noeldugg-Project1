@@ -222,13 +222,13 @@
 @media (max-width: 475px){
    
     .header__title {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .btn-container {
-        font-size: 0.355rem;
+        font-size: 0.755rem;
        }
     .hero__title {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .hero__description {
         font-size: 0.3;

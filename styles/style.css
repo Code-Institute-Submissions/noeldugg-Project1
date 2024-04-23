@@ -246,7 +246,7 @@ button {
 }
 
 .help {
-    border: 1px solid black;
+   
     margin-top: 5rem;
     display: grid;
     justify-content: center;
@@ -295,7 +295,7 @@ button {
 .item {
     
     
-     width: ;
+     
      height:150px;
    padding: 0.5em 1rem;
     color: #fff;
