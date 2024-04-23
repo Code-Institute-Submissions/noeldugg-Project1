@@ -16,3 +16,35 @@ body {
 
    
 }
+.services {
+    display: flex;
+ 
+    padding: 0.5 em 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services__title {
+    text-transform: uppercase;
+    letter-spacing: -0.025em;
+    font-size: 3.5rem;
+    margin-top: 5rem;
+}
+.services__description {
+    font-size: 1.2rem;
+    max-width: 60ch;
+    margin-top: 2rem ;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 1rem;
+    line-height: 1.5;
+    transition:  transform 0.3s;
+
+}
+.services__description:hover {
+    transform: translateY(-10px);
+}
