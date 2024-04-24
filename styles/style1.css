@@ -58,6 +58,10 @@ body {
     text-align: center;
     
 }
+.plan__container {
+  display: grid;
+  gap: 1rem;
+}
 /* .plan__container {
   display: grid;
   grid-template-areas: 
