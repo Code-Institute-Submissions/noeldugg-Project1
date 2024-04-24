@@ -7,6 +7,42 @@
     .services__description {
         font-size: 1.1rem;
     }
+    .plan__title {
+        font-size: 1.4rem;
+    }
+    .plan__box-title {
+        font-size: 1.1rem;
+    }
+    .plan__box-description {
+        font-size: 0.720;
+    }
+    /* .plan__container {
+        display: grid;
+        grid-template-areas: 
+        'SEO SEO SMM SMM WDD WDD'
+        'PPC PPC  CM CM  AR  AR';
+        gap: 1rem;
+         
+          
+      }
+      .plan__box--SEO {
+        grid-area: SEO;
+      }
+      .plan__box--SMM {
+        grid-area: SMM;
+      }
+      .plan__box--PPC {
+        grid-area: PPC;
+      }
+      .plan__box--CM {
+        grid-area: CM;
+      }
+      .plan__box--WDD {
+        grid-area: WDD;
+      }
+      .plan__box--AR {
+        grid-area: AR;
+      } */
 }
 
 
@@ -17,6 +53,15 @@
     }
     .services__description {
         font-size: 1rem;
+    }
+    .plan__title {
+        font-size: 1.2rem;
+    }
+    .plan__box-title {
+        font-size: 1rem;
+    }
+    .plan__box-description {
+        font-size: 0.680;
     }
 }
 
@@ -29,6 +74,46 @@
     .services__description {
         font-size: 0.88rem;
     }
+    .plan__title {
+        font-size: 1rem;
+    }
+    .plan__box-title {
+        font-size: 0.98rem;
+    }
+    .plan__box-description {
+        font-size: 0.600;
+    }
+    
+} 
+@media (min-width: 1024px) {
+    .plan__container {
+        display: grid;
+        grid-template-areas: 
+        'SEO SEO SMM SMM WDD WDD'
+        'PPC PPC  CM CM  AR  AR';
+        gap: 1rem;
+         
+          
+      }
+      .plan__box--SEO {
+        grid-area: SEO;
+      }
+      .plan__box--SMM {
+        grid-area: SMM;
+      }
+      .plan__box--PPC {
+        grid-area: PPC;
+      }
+      .plan__box--CM {
+        grid-area: CM;
+      }
+      .plan__box--WDD {
+        grid-area: WDD;
+      }
+      .plan__box--AR {
+        grid-area: AR;
+      }
+   
 }
 
 
@@ -39,6 +124,15 @@
     }
     .services__description {
         font-size: 0.755rem;
+    }
+    .plan__title {
+        font-size: 0.890rem;
+    }
+    .plan__box-title {
+        font-size: 0.780rem;
+    }
+    .plan__box-description {
+        font-size: 0.500;
     }
 }
 
@@ -51,6 +145,15 @@
     .services__description {
         font-size: 0.668rem;
     }
+    .plan__title {
+        font-size: 0.790rem;
+    }
+    .plan__box-title {
+        font-size: 0.680rem;
+    }
+    .plan__box-description {
+        font-size: 0.400;
+    }
 }
 
 
@@ -61,6 +164,15 @@
     }
     .services__description {
         font-size: 0.558rem;
+    }
+    .plan__title {
+        font-size: 0.690rem;
+    }
+    .plan__box-title {
+        font-size: 0.580rem;
+    }
+    .plan__box-description {
+        font-size: 0.300;
     }
 }
 

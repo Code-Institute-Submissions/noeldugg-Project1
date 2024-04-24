@@ -175,7 +175,10 @@ button {
     text-align: left ;
     padding: 0.5em 1rem;
     font-weight: 500;
-    transition: transform 0.5s ; 
+    transition: transform 0.5s ;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
 }
 .hero__description:hover {
     transform: translateY(-10px);
@@ -278,6 +281,7 @@ button {
 }
 
 .items {
+
     
     display: flex;
     height: 300px;
@@ -349,6 +353,7 @@ button {
     font-size: 1.1rem;
     max-width: 45ch;
     margin: 1rem auto;
+    font-family: "Montserrat", sans-serif;
 }
 .footer__box-title {
     font-size: 1.5rem;
@@ -371,6 +376,7 @@ button {
 }
 .footer__box-description {
     margin-top: 1rem;
+    font-family: "Montserrat", sans-serif;
 }
 .contact {
     margin-top: 10rem;
@@ -394,6 +400,7 @@ button {
     margin-bottom: 1.2rem;
     letter-spacing: -0.05em;
     line-height: 1;
+    font-family: "Montserrat", sans-serif;
 }
 .btn1 {
     
