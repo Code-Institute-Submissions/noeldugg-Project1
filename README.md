@@ -29,3 +29,9 @@ In each page I will have a header and contact button and a navbar.
 Every page has the header title DIGITAL AGENCY as this establishes the comapanys name.
 
 ![Screenshot 2024-04-25 16 32 44](https://github.com/noeldugg/jimmyn/assets/157477260/0fa9e67c-e457-4a36-98ad-18378be89302)
+
+- __Hero Section__
+
+-index.hmtl
+- Within the hero section is Hero title with signifies the work that we have done stating "OUR DIGITAL IMPACT" this attracts the Users attention towards wanting the find out more about our Business.
+  - We also have a "description" in our hero section, talking about how we have revolutionized the business that we have worked with  which is interactive using  hover pseudo class , providing proof that with the three images that change as you interact with them providing a fun user experience 
