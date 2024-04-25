@@ -1,3 +1,5 @@
+
+
 # DIGITAL AGENCY
 
 When creating this project ,I was conflicted on what I should build my website around.
@@ -12,3 +14,4 @@ can get in Contact easily and efficiently. The site will hope to attract more cl
 ranging from all ages as you are never to old or too young too start a business.DIGITAL AGENCY 
 will be an easy accesible website for all clients or potential clients as it will aim to be 
 an easy user experience.
+![reponsive](https://github.com/noeldugg/jimmyn/assets/157477260/466a48fd-79c7-4431-a2c2-3fe3202fde74)
