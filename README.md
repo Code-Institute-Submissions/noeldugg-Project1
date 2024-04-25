@@ -16,7 +16,7 @@ will be an easy accesible website for all clients or potential clients as it wil
 an easy user experience.
 ![reponsive](https://github.com/noeldugg/jimmyn/assets/157477260/466a48fd-79c7-4431-a2c2-3fe3202fde74)
 
-#Features
+# Features
 
 I have three pages in my website HOME ,SERVICES and PRICING .
 In each page I will have a header and contact button and a navbar. 
@@ -25,6 +25,7 @@ In each page I will have a header and contact button and a navbar.
 
 - The navbar while feature on all three pages ,this navbar will be fully  repsonsive with a HOME SERVICES AND PRICING Section each leading you to a different page.This is easy accesible and helps you move to each page smoothly.It is identical on each page ,allowing to each page for easy navigation be able to revert to the previous page. 
 - THere is also an EMAIL and CONTACT section beside the navigation bar ,this allows for an easy access to the reach out or get in touch with our specialists.
-- having the EMAIL & CONTACT Section 
+- having the EMAIL & CONTACT Section so accesible helps to get rid of that pain having to search endlessy for a contact section as it leads you straight to one of our professionals.
+Every page has the header title DIGITAL AGENCY as this establishes the comapanys name.
 
-
+![Screenshot 2024-04-25 16 32 44](https://github.com/noeldugg/jimmyn/assets/157477260/0fa9e67c-e457-4a36-98ad-18378be89302)
