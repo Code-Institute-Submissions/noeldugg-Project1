@@ -43,8 +43,12 @@ Every page has the header title DIGITAL AGENCY as this establishes the comapanys
 
 ![read](https://github.com/noeldugg/jimmyn/assets/157477260/a8e2ad60-49f3-4924-af40-a88094fe0a24)
 
--__Help Section__
+- __Help Section__
 
 -In our help section we provide a plan for the users with a simple six step plan, hoping to not confuse the user and keep it simple. 
 This is the six step process that will allow us to help the user or client identify where we will work with them. Each block is interactive leading to a smoother user experience.
 ![Screenshot 2024-04-26 14 30 37](https://github.com/noeldugg/jimmyn/assets/157477260/11e8de4c-72d8-4487-b8d8-bb6a1df82cae)
+
+- __Footer Section__
+
+- In the footer section are six simple boxes highlight the key points to your business, the clean look and display gives an easy on the eye affect as everthing is align perfectly and spaced evenly.![8000-noeldugg-jimmyn-co9juveiqoy ws-eu110 gitpod io_](https://github.com/noeldugg/jimmyn/assets/157477260/820d708b-fd8d-4bd4-98d8-e7c2a80b7b16)
