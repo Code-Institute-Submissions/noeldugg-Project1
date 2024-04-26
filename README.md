@@ -34,4 +34,17 @@ Every page has the header title DIGITAL AGENCY as this establishes the comapanys
 
 -index.hmtl
 - Within the hero section is Hero title with signifies the work that we have done stating "OUR DIGITAL IMPACT" this attracts the Users attention towards wanting the find out more about our Business.
-  - We also have a "description" in our hero section, talking about how we have revolutionized the business that we have worked with  which is interactive using  hover pseudo class , providing proof that with the three images that change as you interact with them providing a fun user experience 
+  - We also have a "description" in our hero section, talking about how we have revolutionized the business that we have worked with  which is interactive using  hover pseudo class , providing proof that with the three images that change as you interact with them providing a fun user experience.
+  - with a button to learn more about the business that is interactive.
+
+![hero](https://github.com/noeldugg/jimmyn/assets/157477260/b1342557-b9c9-4265-b129-f2542a51ab5e)
+
+  - I have three Images that dispaly the work that we have done for are clients ,which change and hover and change as you interact with them. This provides a fun user experience and unique display of our vision, hopefully the user can see the their own future on our vision.
+
+![read](https://github.com/noeldugg/jimmyn/assets/157477260/a8e2ad60-49f3-4924-af40-a88094fe0a24)
+
+-__Help Section__
+
+-In our help section we provide a plan for the users with a simple six step plan, hoping to not confuse the user and keep it simple. 
+This is the six step process that will allow us to help the user or client identify where we will work with them. Each block is interactive leading to a smoother user experience.
+![Screenshot 2024-04-26 14 30 37](https://github.com/noeldugg/jimmyn/assets/157477260/11e8de4c-72d8-4487-b8d8-bb6a1df82cae)
