@@ -412,16 +412,36 @@ button {
 .anchor__container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
+
 .fa {
     font-size: 1.5rem;
-     border-radius: 50%;
-    padding: 1rem;
+     border-radius: 0.5px;
+    padding: 0.5em 1rem;
     text-align: center;
     margin: 0.5rem 1rem;
 
+}
+.fa-x-twitter {
+    color: #000;
+    font-size: 3rem;
+}
+.fa-youtube {
+    background-color: #FF0000;
+    color: #fff;
+    
+}
+.fa-facebook {
+    background-color: #4267B2;
+    color: #fff;
 
 }
+.fa-instagram {
+    color: #C13584;
+    font-size: 3rem;
+}
+
 
 .container {
   max-width: 1536px;

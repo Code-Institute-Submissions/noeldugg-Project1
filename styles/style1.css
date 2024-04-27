@@ -61,6 +61,7 @@ body {
 .plan__container {
   display: grid;
   gap: 1rem;
+  margin-bottom: 2rem;
 }
 /* .plan__container {
   display: grid;
@@ -115,6 +116,67 @@ body {
 }
 .plan__box {
   margin: 0;
+}
+.contact {
+  margin-top: 10rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  border-radius: 10px;
+  
+  
+}
+.contact__title {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  margin-top: 3rem;
+}
+.contact__description {
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+}
+.btn1 {
+  
+  color: #fff;
+  background-color: #000;
+}
+.anchor__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa {
+  font-size: 1.5rem;
+   border-radius: 0.5px;
+  padding: 0.5em 1rem;
+  text-align: center;
+  margin: 0.5rem 1rem;
+
+}
+.fa-x-twitter {
+  color: #000;
+  font-size: 3rem;
+}
+.fa-youtube {
+  background-color: #FF0000;
+  color: #fff;
+  
+}
+.fa-facebook {
+  background-color: #4267B2;
+  color: #fff;
+
+}
+.fa-instagram {
+  color: #C13584;
+  font-size: 3rem;
 }
 
 
