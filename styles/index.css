@@ -39,7 +39,9 @@
     .footer__description {
         font-size: 1rem;
     }
-    
+    .fa-solid {
+        display: none;
+    }
 }
 
 
@@ -143,6 +145,7 @@
     }
     .btn-container {
         font-size: 0.355rem;
+        
        }
      .header__link { 
       
@@ -173,6 +176,18 @@
     .footer__description {
         font-size: 0.665rem;
     }
+   .fa-solid {
+    display: flex;
+    font-size: 1.5rem;
+    color: #000;
+    flex: 1;
+    align-self: flex-end;
+    justify-content: end;
+    margin-top: 1rem;
+    padding: 0.5em 1rem;
+    margin: 0 auto;
+   }
+   
     
     
 }  
@@ -210,6 +225,13 @@
     }
     .footer__description {
         font-size: 0.665rem;
+    }
+    .items {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
     }
     
 
@@ -252,6 +274,7 @@
     .footer__description {
         font-size: 0.665rem;
     }
+    
     
     
 }
