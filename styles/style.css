@@ -339,6 +339,7 @@ button {
 }
  .footer {
  text-align: center;
+ margin-bottom: 4rem;
 }
 
 
@@ -365,6 +366,7 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+    margin-bottom: 10rem;
 }
 .footer__box {
     border: 1px solid #ccc;
@@ -382,8 +384,8 @@ button {
     margin-top: 10rem;
     text-align: center;
     border: 1px solid #ccc;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     width: 100%;
     border-radius: 10px;
     
@@ -404,8 +406,21 @@ button {
 }
 .btn1 {
     
-    color: #000;
-    background-color: #ccc;
+    color: #fff;
+    background-color: #000;
+}
+.anchor__container {
+    display: flex;
+    justify-content: space-around;
+}
+.fa {
+    font-size: 1.5rem;
+     border-radius: 50%;
+    padding: 1rem;
+    text-align: center;
+    margin: 0.5rem 1rem;
+
+
 }
 
 .container {
@@ -413,6 +428,7 @@ button {
   margin: 0 auto;
   padding: 0 1rem
 }
+
 /* 2xl */
 @media (max-width: 1536px) {
     .container {
