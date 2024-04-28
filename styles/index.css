@@ -146,11 +146,11 @@
     .btn-container {
         font-size: 0.355rem;
         
-       }
+    }
      .header__link { 
       
-        display: none;
-     } 
+        font-size: 0.5rem; }
+    
      .hero__title {
         font-size: 2rem;
     }
@@ -186,11 +186,15 @@
     margin-top: 1rem;
     padding: 0.5em 1rem;
     margin: 0 auto;
+    cursor: pointer;
    }
    
+  
+   
+   
+
+}
     
-    
-}  
 
 
 /* sm */
@@ -226,13 +230,13 @@
     .footer__description {
         font-size: 0.665rem;
     }
-    .items {
+    /* .items {
         display: flex;
         flex: 1;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: space-between;
-    }
+    } */
     
 
 }

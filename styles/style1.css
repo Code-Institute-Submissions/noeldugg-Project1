@@ -23,6 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+   
 }
 .services__title {
     text-transform: uppercase;
@@ -62,6 +63,7 @@ body {
   display: grid;
   gap: 1rem;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 /* .plan__container {
   display: grid;
