@@ -64,7 +64,9 @@ body {
   gap: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  
 }
+
 /* .plan__container {
   display: grid;
   grid-template-areas: 
@@ -114,8 +116,12 @@ body {
    align-items: flex-start;
    border: 1px solid #ccc;
    border-radius: 10px;
+   transition: transform 0.3s ease;
 
+}.plan__box-container:hover {
+  transform: translateY(-10px);
 }
+
 .plan__box {
   margin: 0;
 }

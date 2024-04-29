@@ -16,3 +16,135 @@ body {
 
    
 }
+.pricing__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: -0.05em;
+    margin-top: 5rem;
+}
+
+.pricing__description {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.pricing__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.pricing__box {
+    border: 1px solid black;
+    height: 600px;
+    width: 450px;
+    margin-top: 3rem;
+    padding: 0.5em 1rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    
+}
+.pricing__box:hover {
+  transform: translateY(-10px);
+}
+.pricing__box-title {
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    font-size: 2rem;
+  
+}
+
+  .pricing__box-description{
+   text-align: center;
+   margin-top: 0.5rem;
+   font-size: 2rem;
+   color: #000;
+   border-radius: 10px;
+   border: 1px solid black;
+   background-color: #fff;
+   color: #000;
+   font-weight: 600;
+ 
+  
+
+}
+.pricing__box-2 {
+    text-align: center;
+  font-family:  "Montserrat", sans-serif; 
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+   
+}
+.pricing__list {
+  display: flex;
+  margin-top: 1rem ;
+  gap: 0.3rem;
+  justify-content: space-around;
+  font-family:  "Montserrat", sans-serif; 
+  flex-wrap: wrap;
+
+}
+.pricing__list-2 {
+  text-align: center;
+  font-family:  "Montserrat", sans-serif; 
+  font-size: 1rem;
+  
+  
+}
+
+
+
+
+
+
+.container {
+    max-width: 1536px;
+    margin: 0 auto;
+    padding: 0 1rem
+  }
+  /* 2xl */
+  @media (max-width: 1536px) {
+      .container {
+        max-width: 1280px;
+      }
+    }
+    
+    /* xl */
+    @media (max-width: 1280px) {
+      .container {
+        max-width: 1024px;
+      }
+    }
+    
+    /* lg */
+    @media (max-width: 1024px) {
+      .container {
+        max-width: 768px;
+      }
+    }
+    
+    /* md */
+    @media (max-width: 768px) {
+      .container {
+        max-width: 640px;
+      }
+    }
+    
+    /* sm */
+    @media (max-width: 640px) {
+      .container {
+        max-width: 475px;
+      }
+    }
+    
+    /* xs */
+    @media (max-width: 475px) {
+      .container {
+        width: 100%;
+      }
+    }
