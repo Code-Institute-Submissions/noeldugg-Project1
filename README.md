@@ -62,5 +62,13 @@ This is the six step process that will allow us to help the user or client ident
 - __Services Section__
 
 - The Services section really helps the user or client, to understand the services that we provide towards their business.
-- The vision that we will focus on , helping them with the engagemnet process.
+- Showing them the vision that we will focus on , helping them with that  process.
 - ![8000-noeldugg-jimmyn-co9juveiqoy ws-eu110 gitpod io_Html_services html](https://github.com/noeldugg/Project1/assets/157477260/7a124ab4-2f7a-47e4-a60a-507ad8ed518d)
+
+
+- __Planning Section__
+
+- In each box is a plan that we will focus on each aspect of the business,each aspect is an important part on how to grow a business.
+- This will show the user how will we incorperate these aspects into their business.
+
+- ![8000-noeldugg-jimmyn-co9juveiqoy ws-eu110 gitpod io_Html_services html (1)](https://github.com/noeldugg/Project1/assets/157477260/5e001c28-d3f2-4370-9b1c-40e939b3585b)
