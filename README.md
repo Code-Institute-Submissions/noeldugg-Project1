@@ -70,5 +70,6 @@ This is the six step process that will allow us to help the user or client ident
 
 - In each box is a plan that we will focus on each aspect of the business,each aspect is an important part on how to grow a business.
 - This will show the user how will we incorperate these aspects into their business.
+- Each box has a button where it will lead you to the pricing section.
 
 - ![8000-noeldugg-jimmyn-co9juveiqoy ws-eu110 gitpod io_Html_services html (1)](https://github.com/noeldugg/Project1/assets/157477260/5e001c28-d3f2-4370-9b1c-40e939b3585b)
