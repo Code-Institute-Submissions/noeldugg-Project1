@@ -37,7 +37,7 @@ body {
 }
 
 .pricing__box {
-    border: 1px solid black;
+    border: 1px solid #ccc;
     height: 600px;
     width: 450px;
     margin-top: 3rem;
@@ -63,7 +63,7 @@ body {
    font-size: 2rem;
    color: #000;
    border-radius: 10px;
-   border: 1px solid black;
+   border: 1px solid #ccc;
    background-color: #fff;
    color: #000;
    font-weight: 600;
