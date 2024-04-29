@@ -52,3 +52,8 @@ This is the six step process that will allow us to help the user or client ident
 - __Footer Section__
 
 - In the footer section are six simple boxes highlight the key points to your business, the clean look and display gives an easy on the eye affect as everthing is align perfectly and spaced evenly.![8000-noeldugg-jimmyn-co9juveiqoy ws-eu110 gitpod io_](https://github.com/noeldugg/jimmyn/assets/157477260/820d708b-fd8d-4bd4-98d8-e7c2a80b7b16)
+
+- __Contact Section__
+
+- In the Contact section I have four social media sites that are interactive and lead you too those various platforms, The Reach out button leads you to your email.
+- This provides an easier way for the user to reach out and provides some familiarity to the user  through the various social media links.![Screenshot 2024-04-29 17 22 41](https://github.com/noeldugg/Project1/assets/157477260/81ebc718-422f-4756-aa5f-771e864f4aad)
