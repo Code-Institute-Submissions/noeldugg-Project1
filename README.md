@@ -57,3 +57,10 @@ This is the six step process that will allow us to help the user or client ident
 
 - In the Contact section I have four social media sites that are interactive and lead you too those various platforms, The Reach out button leads you to your email.
 - This provides an easier way for the user to reach out and provides some familiarity to the user  through the various social media links.![Screenshot 2024-04-29 17 22 41](https://github.com/noeldugg/Project1/assets/157477260/81ebc718-422f-4756-aa5f-771e864f4aad)
+
+
+- __Services Section__
+
+- The Services section really helps the user or client, to understand the services that we provide towards their business.
+- The vision that we will focus on , helping them with the engagemnet process.
+- ![8000-noeldugg-jimmyn-co9juveiqoy ws-eu110 gitpod io_Html_services html](https://github.com/noeldugg/Project1/assets/157477260/7a124ab4-2f7a-47e4-a60a-507ad8ed518d)
