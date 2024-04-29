@@ -73,3 +73,10 @@ This is the six step process that will allow us to help the user or client ident
 - Each box has a button where it will lead you to the pricing section.
 
 - ![8000-noeldugg-jimmyn-co9juveiqoy ws-eu110 gitpod io_Html_services html (1)](https://github.com/noeldugg/Project1/assets/157477260/5e001c28-d3f2-4370-9b1c-40e939b3585b)
+
+
+- __Pricing Section__
+
+- In the Pricing Plan, are three Price points in which is what our business charges per month.
+- These are the services that you can expect from each Plan , this lets the user aware of the value for money that client would be getting from  the Premium Plan for example.
+- Hopefully this can help the user understand the Price points.![8000-noeldugg-jimmyn-co9juveiqoy ws-eu110 gitpod io_Html_pricing html](https://github.com/noeldugg/Project1/assets/157477260/88c64395-7700-457f-8cba-194d001b981e)
