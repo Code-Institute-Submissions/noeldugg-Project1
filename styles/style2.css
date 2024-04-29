@@ -24,10 +24,10 @@ body {
     margin-top: 5rem;
 }
 
-.pricing__description {
+/* .pricing__description {
     text-align: center;
     font-size: 1.3rem;
-}
+} */
 
 .pricing__container {
     display: flex;
