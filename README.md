@@ -85,3 +85,12 @@ This is the six step process that will allow us to help the user or client ident
 - __Get in Contact__
 
 - This section is pretty simple for the user as if they would like to leave their details, it is easy accesible and can just submit it.
+
+- __Features Left to Implement__
+
+- Customer reviews section.
+- Navigation scroll bar for mobile view.
+- Leave a review section.
+
+- __Testing__
+- 
