@@ -12,13 +12,13 @@
         font-size: 0.8rem;
     }
     .header__link { 
-    font-size: 0.988;
+    font-size: 0.988rem;
     }
     .hero__title {
         font-size: 3rem;
     }
     .hero__description {
-        font-size: 1;
+        font-size: 1rem;
     }
     .hero__description:hover {
         font-size: 1.150rem;
@@ -31,7 +31,7 @@
         font-size: 3.5rem;
     }
     .help__description {
-        font-size: 1.1;
+        font-size: 1.1rem;
     }
     .footer__title {
         font-size: 2rem;
@@ -57,13 +57,13 @@
         font-size: 0.655rem;
     }
     .header__link { 
-        font-size: 0.788;
+        font-size: 0.788rem;
      }
      .hero__title {
         font-size: 2.5rem;
     }
     .hero__description {
-        font-size: 0.888;
+        font-size: 0.888rem;
     }
     .hero__description:hover {
         font-size: 1rem;
@@ -76,7 +76,7 @@
         font-size: 3rem;
     }
     .help__description {
-        font-size: 1;
+        font-size: 1rem;
     }
     .footer__title {
         font-size: 1.8rem;
@@ -104,16 +104,16 @@
    }
  .header__link { 
   
-    font-size: 0.488;
+    font-size: 0.488rem;
  } 
  .hero__title {
     font-size: 2.2rem;
 }
 .hero__description {
-    font-size: 0.7;
+    font-size: 0.7rem;
 }
 .hero__description:hover {
-    font-size: 0.9;
+    font-size: 0.9rem;
 }
 .image {
     width: 350px;
@@ -124,7 +124,7 @@
     font-size: 2.5rem;
 }
 .help__description {
-    font-size: 1.1;
+    font-size: 1.1rem;
 }
 .footer__title {
     font-size: 1.5rem;
@@ -155,10 +155,10 @@
         font-size: 2rem;
     }
     .hero__description {
-        font-size: 0.6;
+        font-size: 0.6rem;
     }
     .hero__description:hover {
-        font-size: 0.8;
+        font-size: 0.8rem;
     }
     .image {
         width: 300px;
@@ -168,7 +168,7 @@
         font-size: 2.2rem;
     }
     .help__description {
-        font-size: 1;
+        font-size: 1rem;
     }
     .footer__title {
         font-size: 1.2rem;
@@ -210,10 +210,9 @@
         font-size: 1.7rem;
     }
     .hero__description {
-        font-size: 0.4;
+        font-size: 0.4rem;
     }
-    /* .hero__description:hover {
-        font-size: 0.7; */
+
     
     .image {
         width: 200px;
@@ -223,20 +222,14 @@
         font-size: 2rem;
     }
     .help__description {
-        font-size: .9;
+        font-size: .9rem;
     }.footer__title {
         font-size: 1.5rem;
     }
     .footer__description {
         font-size: 0.665rem;
     }
-    /* .items {
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: space-between;
-    } */
+  
     
 
 }
@@ -257,11 +250,7 @@
         font-size: 1.5rem;
     }
     .hero__description {
-        font-size: 0.3;
-    }
-    /* .hero__description:hover {
-        font-size: 0.5;
-    } */
+        font-size: 0.3rem;}
     .image {
         width: 100px;
         height: 100px;
@@ -270,7 +259,7 @@
         font-size: 1.6rem;
     }
     .help__description {
-        font-size: 0.7;
+        font-size: 0.7rem;
     }.footer__title {
         font-size: 1.5rem;
         margin-top: 5rem;

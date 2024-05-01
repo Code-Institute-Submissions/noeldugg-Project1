@@ -13,7 +13,7 @@
     font-size: 1.1rem;
  }
  .pricing__list-2 {
-    font-size: 0.9;
+    font-size: 0.9rem;
  }
 
   }
@@ -116,6 +116,10 @@
 .pricing__list-2 {
   font-size: 0.3rem;
 }
-     
+.anchor__container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
     
   }

@@ -14,7 +14,7 @@
         font-size: 1.1rem;
     }
     .plan__box-description {
-        font-size: 0.720;
+        font-size: 0.720rem;
     }
     /* .plan__container {
         display: grid;
@@ -61,7 +61,7 @@
         font-size: 1rem;
     }
     .plan__box-description {
-        font-size: 0.680;
+        font-size: 0.680rem;
     }
 }
 
@@ -81,7 +81,7 @@
         font-size: 0.98rem;
     }
     .plan__box-description {
-        font-size: 0.600;
+        font-size: 0.600rem;
     }
     
 } 
@@ -132,7 +132,7 @@
         font-size: 0.780rem;
     }
     .plan__box-description {
-        font-size: 0.500;
+        font-size: 0.500rem;
     }
 }
 
@@ -152,7 +152,7 @@
         font-size: 0.680rem;
     }
     .plan__box-description {
-        font-size: 0.400;
+        font-size: 0.400rem;
     }
 }
 
@@ -172,7 +172,10 @@
         font-size: 0.580rem;
     }
     .plan__box-description {
-        font-size: 0.300;
+        font-size: 0.300rem;
+    }
+    .fa {
+        font-size: 1.2rem;
     }
 }
 
