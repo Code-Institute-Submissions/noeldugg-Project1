@@ -139,7 +139,89 @@ This is the six step process that will allow us to help the user or client ident
      - Was used for version control by utillizing the Gitpod terminal to commit to Git and       Push to GitHub.
       - Gitpod was used to host my code which allowed me to create my website .
  
-      -  #
+      -  #### Pintrest
+      -  I used Pintrest to get my hero Images.
 
 
+     # Testing
+
+ - The  W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    - Every html page was tested for errors.
+    - Every style sheet was tested for errors.
+   -  The  W3C Markup Validator -https://validator.w3.org/
+   -  The W3C CSS Validation Service - Jigsaw https://jigsaw.w3.org/css-validator/
   
+    -  ### UX & User
+    -  If I was a First Time Vistor, I would easily want to understand the main purpose of    the webpage , and more about the organistion.
+
+    - ##### Header
+    -  As we enter the first page we  are greeted  with a header and a navbar and the name of the company , each element is aligned perfectly to fit the page . The aesthictic is clean and professional.Each button is interactive and leads you to Pricing section.
+      
+    -  This was achieved using flexbox while using a display of flex, with the flex 1 property which helped align everything even through the various breakpoints . By using the flexbox and media querires it helped me to not too many and hinder reponsiveness.
+  
+    -  ##### Hero
+    - We are met with a title of OUR DIGITAL IMPACT this would get me immediately interested in the Web page. With a description explaining their business, and a button to learn more.
+  - As we scroll we are met with three different images as you hover over each image it changes, as it explained in the description this is the various work that we have done in the past.
+
+  - This was achieved using a display of flex, each secction of these pages are wrapped in a container class which helped keep everything alligned.Each page has a gap between them which helped not make everything looked squashed.
+    
+  -  #### Help
+  -  In the Help section , we are greeted with a plan of our future business. These six boxes , introduce us on how on optomise our growth on the business. Each box hovers over it as you interact with it. Giving the user a fun and interactive elememt.
+  -  Resizing the web page was achieved with media queries and flex wrap. Flex wrap achieved the boxes to not overlap eachother when it got too 475px using wrap and a flex directioin of column.
+
+  -  #### Footer
+  -  The footer container is similar too the help section , but is more concise and go into more detail on the direction forward. Everything is easy to read and simplified.
+
+  -  Everything is wrapped in a div container,with every box having its own div class.     
+   Using display flex helped achieve everything to be placed aligned. Flexbox helps to resize the page through the various breakpoints.
+
+
+  - #### Contact
+  - In the contact section we are presented with four social media icons. That have the hover effect over each icon, the message Get in touch is inviting to join or get in contact with a button to reach out.
+
+  - Using flexbox again helped  the aligment of each icon and allowed them to fit.Each icon sends you to those various social media websites.
+
+  - #### Services
+  -  The services container is similar to the home page, which was achieved using flex box keeping the similar theme around the website.
+
+  - In the Planning section each box has the same title style and button style.             Each box  is spaced-evenly , Using a display of grid and placed and named each box in a grid template area . Each box has display of flex aligning everything evenly.
+
+  - #### Pricing
+  - The Pricing section is a simple pricing plan that explains the various plans and shows what value you get with each plan.
+
+  - Each plan is is put in a box with its own div class and a display of flex by wrapping it into a container class. Using a justify content to space the items evenly.
+
+  - #### Get in Contact
+  - In the form container is it an easy accesible form that allows the user to fill in their details and submit it to the company usign icons to make the page more friendly.
+
+  - This was achieved using a display of flex to align everything, the icons were resized   to fit the page when sized down.
+
+- # Further Testing
+- This website was tested on Google Chrome,Internet Explorer, Microsoft Edge and Safari browsers.
+- This website was viewed on a Lenovo laptop , Chromebook and iPhone 12 .
+- This testing was done to ensure that all pages were liking correctly.
+- I asked my friends and family the view my webpage to ensure I had no bugs or poor User experience.
+
+
+- # Bugs
+- when rezising the web page the header would break this was due to the font-size being too large, but temporially I put in a mobile nav but did not have time to achieve the result I wanted , as I didnt know how to create it without using JavaScript.
+
+- In  the help container item 5 and 6 would overlap into the footer secetion when rezisng down the page . This was fixed with flex wrap which allowed the boxes to wrap around elements.
+
+- In the Contact section the social media icons would when resize down to the last breakpoint, this was fixed by decreasing the font-size , in the media queries.
+
+
+- # Credits
+
+- The media queires came from this video here - https://youtu.be/K24lUqcT0Ms
+- This helped with CSS grid - https://youtu.be/EiNiSFIPIQE
+- This really helped my understanding of flexbox - https://youtu.be/phWxA89Dy94
+- This helped my understanding of CSS units - https://youtu.be/fzZTvLmmTzM
+- These videos helped me with understanding my layouts and gave me a direction.
+- This video helped me with transitions - https://youtu.be/SgmNxE9lWcY
+- Font awesome was used for icons - https://fontawesome.com/icons
+- Was used for help    https://www.shecodes.io/athena/1373-centering-a-footer-in-css#:~:text=To%20center%20a%20footer%20using,the%20footer's%20block.
+- Was used for help with the form seciton - https://www.w3schools.com/howto/howto_css_register_form.asp
+- This video helped aswell with the form section - https://youtu.be/pLBVrqS63vw
+
+- 
