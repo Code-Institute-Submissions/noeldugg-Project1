@@ -114,19 +114,19 @@ This is the six step process that will allow us to help the user or client ident
 - HTML5
 - CSS3
 
-- __Deployment__
+- # Deployment__
 
 - This site was deployed to github through gitpod, I went to Settings then through settings I went through Pages, I then went to Source and from Source I deployed from a brach. I changed it to main branch and saved.
 - A live link can be found here  https://noeldugg.github.io/Project1/
 
-- #### Frameworks,Libraries & Programs Used
+- # Frameworks,Libraries & Programs Used
 
 -    #### Hover.css:
 -    Hover.css was used for the button elements and box containers, to add the transform transition while being hovered on.
 -    Used hover on the hero images switching images as you hover over it.
 -    #### Google fonts:
 -    Google fonts was used to import the Montserrat font.
--    # Fontawesome:
+-    #### Fontawesome:
 -    Font awesome was used on every page, it was added for aesthetic and UX purposes.
 -    Font awesome was used to import the the various social media icons and for the Get in touch section.
       - #### Media Query
