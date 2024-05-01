@@ -92,5 +92,53 @@ This is the six step process that will allow us to help the user or client ident
 - Navigation scroll bar for mobile view.
 - Leave a review section.
 
-- __Testing__
-- 
+- __Design__
+- #### Color scheme
+-  The two main colors I used were #fff and #000.
+
+- #### Typography
+- The Montserrat font is the main font used throughout the whole Website,with Sans Serif as the fallback font incase Montserrat failed for some reason.
+- The font style gives a very proffesional apperance.
+
+- #### Theme
+- Each page is aesthically appealing to the user as everthing is symetrically placed.
+- There is no background image as I believe I would of taken away from the overall text of project it would of just clashed too much.
+
+- #### Features
+  
+- Responsive on all device sizes.
+- Interactive elements.
+
+- __Technologies__
+- #### Languages Used
+- HTML5
+- CSS3
+
+- __Deployment__
+
+- This site was deployed to gitpod through github as the repositary was made in githb  
+
+- #### Frameworks,Libraries & Programs Used
+
+-    # Hover.css:
+-    Hover.css was used for the button elements and box containers, to add the transform transition while being hovered on.
+-    Used hover on the hero images switching images as you hover over it.
+-    # Google fonts:
+-    Google fonts was used to import the Montserrat font.
+-    # Fontawesome:
+-    Font awesome was used on every page, it was added for aesthetic and UX purposes.
+-    Font awesome was used to import the the various social media icons and for the Get in touch section.
+      - # Media Query
+      - Added media querys to make the pages responsive through the different breakpoints,        this made for smooth transition for different devices.
+        
+     - # Github
+     - Github was used to store the projects code after being pushed from Gitpod.
+ 
+     - # Gitpod
+     - Was used for version control by utillizing the Gitpod terminal to commit to Git and       Push to GitHub.
+      - Gitpod was used to host my code which allowed me to create my website .
+ 
+      -  # 
+
+
+  
