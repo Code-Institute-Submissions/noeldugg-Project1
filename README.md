@@ -224,4 +224,16 @@ This is the six step process that will allow us to help the user or client ident
 - Was used for help with the form seciton - https://www.w3schools.com/howto/howto_css_register_form.asp
 - This video helped aswell with the form section - https://youtu.be/pLBVrqS63vw
 
-- 
+-  The images were taken from pintrest - https://ie.pinterest.com/search/pins/?add_refine=Modern%7Cguide%7Cword%7C6&journeyDepth=1&q=modern%20sleek%20website%20design&rs=guide&sourceModuleId=OB_modern_sleek_website_design_9c53b730-c806-44aa-b174-c0a2af479531
+  helped with images  -  https://stackoverflow.com/questions/67846457/why-is-my-website-is-pushed-to-the-left-when-resizing-in-responsive-mode
+- this helped with resizing- https://stackoverflow.com/questions/69188678/how-do-i-stop-my-content-from-overlapping-when-resizing-browser-vertically
+- Helped with alignment of divs
+https://stackoverflow.com/questions/7693224/how-do-i-right-align-div-elements
+
+W3schools tutorials immensely helped me - https://www.w3schools.com/howto/default.asp
+
+- # Acknowledgements
+- My mentor for helpful advice and feedback.
+- Slack comminity was extremely helpful.
+- Being my first Project It took me a while to understand everything really and couldnt really decide on a direction at the start but I got there in the end.
+
